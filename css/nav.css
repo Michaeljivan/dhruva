@@ -1,0 +1,146 @@
+/*
+      Side bar nav css
+*/
+
+html{
+  height: 100%
+}
+
+.main-nav {
+  background: #222530;
+  margin: 0;
+  width: 100%;
+}
+.main-nav > ul {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-nav > ul > li {
+  flex: 1;
+}
+
+img{
+  margin-left: 20px;
+  cursor: pointer;
+  box-shadow: 6px 8px 10px 0 #aa880e;
+}
+
+.icons{
+  box-shadow: none;
+  cursor: pointer;
+  color: white;
+  height: 50px;
+  width: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #222530;
+  padding: 10px;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.h-1{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* .material-icons{
+  padding-left: 100px;
+  cursor: pointer;
+  color: white;
+} */
+
+/* .menu--close {
+  display: none;
+} */
+
+.h-2{
+  display: flex;
+  align-items: center; 
+  /* padding-right: 100px; */
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-list > li {
+  padding: 0 1.25rem 0 0.25rem;
+  position: relative;
+  color: red;
+}
+
+.nav-list > li > a {
+  text-decoration: none;
+  color: white;
+  font-size:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  padding: 0.5rem;
+  white-space: nowrap;
+}
+.nav-list > li > a:hover {
+  color: grey;
+}
+/* 
+li:hover{
+  /* background-color: #fbc531; */
+  color: yello;
+} */
+
+/* .submenu-toggle-button {
+  position: absolute;
+  right: 0.7rem;
+  top: 0.7rem;
+} */
+/* 
+.submenu {
+  max-height: 0;
+  transition: 0.5s;
+  overflow: hidden;
+  width: 100%;
+  padding-left: 1.5rem;
+} */
+.submenu.open {
+  max-height: 200px;
+}
+
+button,li:hover{
+  cursor: pointer;
+}
+a{
+  font: outline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+/* .nav-list{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  padding: 0.5rem;
+  white-space: nowrap;
+} */
+
+summary{
+  padding: 0.5rem;
+}
+
+summary:focus {
+  outline: none !important;
+}
